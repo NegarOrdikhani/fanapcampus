@@ -7,8 +7,6 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
-
 ### Primary
 
 - white: hsl(0, 0%, 100%)
@@ -19,7 +17,6 @@ The designs were created to the following widths:
 - pistachio green:hsl(163, 29%, 70%)
 - very dark green:hsl(144, 31%, 21%)
 
-## Typography
 
 ### Body Copy
 

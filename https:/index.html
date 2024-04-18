@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="description"
+    content="A Simple Bookmark Manager - A clean and simple interface to organize your favourite websites">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Google fonts for the website -->
+  <title>Neshane</title>
+</head>
+
+<body>
+
+  <!-- Hero section starts here -->
+  <section class="hero">
+    <nav>
+      <a href="#"><img src="images/logo-no-background.svg" alt="Neshane logo" class="logo"></a>
+      <ul>
+        <li><a href="#">امکانات</a></li>
+        <li><a href="#">محصولات</a></li>
+        <li><a href="#">خانه</a></li>
+        <li><a href="#">ثبت نام</a></li>
+      </ul>
+      <img src="images/main.jpeg.svg" alt="hamburger menu" class="mobile-menu" id="mobileMenu">
+    </nav>
+
+    <div class="hero-row">
+      <div class="left-col">
+        <div class="left-col-text">
+          <h1>مدیریت ساده نشانه ها</h1>
+          <p dir="rtl">یک پیوندگر ساده و روان برای سازماندهی وب سایت های مورد علاقه شما؛
+            یک صفحه جدید در مرورگر خود باز کنید و مشاهده می کنید که چگونه سریع و ساده وب سایت شما باز می شود.
+
+          </p>
+          <div class="hero-links">
+            <a href="#">از کروم دریافت کنید</a>
+            <a href="#">از فایرفاکس دریافت کنید</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <img src="images/main.jpeg.svg" alt="bookmark illustration"  class="radius image">
+      </div>
+    </div>
+  </section>
+
+  <div class="mobile-navigation" id="mobileNav">
+    <nav>
+      <ul>
+        <li><a href="#">امکانات</a></li>
+        <li><a href="#">محصولات</a></li>
+        <li><a href="#">خانه</a></li>
+        <li><a href="#">ثبت نام</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Features section starts here -->
+  <section class="features">
+    <h2>امکانات</h2>
+    <p dir="rtl">هدف ما این است که دسترسی شما را سریع و آسان کنیم؛
+      <br> وب سایت های مورد علاقه نشانه های شما بین دستگاه ‌های شما همگام‌سازی می‌شوند<br>
+      بنابراین می توانید در حال حرکت به آنها دسترسی داشته باشید.
+
+    </p>
+
+    <div class="features-controller">
+      <p class="control active">نشانه گذاری ساده</p>
+      <p class="control">سرعت در جستجو</p>
+      <p class="control">اشتراک گذاری آسان</p>
+    </div>
+
+    <div class="features-tab">
+      <div class="left-col">
+        <img src="images/one+click.jpeg.svg" alt="features illustration" class="radius image" id="image">
+      </div>
+      <div class="right-col">
+        <h3 id="heading">نشانه گذاری با یک کلیک</h3>
+        <p id="paragraph" style="direction:rtl">بوک مارک های خود را هر گونه که دوست دارید سازماندهی کنید. رابط کشیدن و
+          رها کردن ساده ما به شما کنترل کاملی بر نحوه مدیریت سایت های مورد علاقه خود می دهد.
+        </p>
+        <a href="#">اطلاعات بیشتر</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download extension section starts here -->
+  <section class="download">
+    <h2>دانلود افزونه</h2>
+    <p dir="rtl">ما تنوع بالایی در مرورگرهای خود داریم ؛ برای آسانی کار خود ما را در جریان علاقه ‌مندی خود بگذارید.</p>
+
+    <div class="download-row">
+      <div class="download-col">
+        <img src="images/logo-chrome.svg" alt="chrome logo">
+        <h3>اضافه کردن به کروم</h3>
+        <p>Minimum version 62</p>
+        <hr>
+        <a href="#">دانلود و نصب در کروم</a>
+      </div>
+      <div class="download-col">
+        <img src="images/logo-firefox.svg" alt="firefox logo">
+        <h3>اضافه کردن به فایرفاکس</h3>
+        <p>Minimum version 55</p>
+        <hr>
+        <a href="#">دانلود و نصب در فایرفاکس</a>
+      </div>
+      <div class="download-col">
+        <img src="images/logo-opera.svg" alt="opera logo">
+        <h3>اضافه کردن به اپرا</h3>
+        <p>Minimum version 46</p>
+        <hr>
+        <a href="#">دانلود و نصب در اپرا</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ section starts here -->
+  <section class="faq">
+    <h2>سوالات متداول</h2>
+    <p> اینجا برخی از سوالات متداول ما را مشاهده می کنید. اگر سؤال دیگری دارید<br> که مایل به پاسخ آن هستید، لطفاً به ما
+      ایمیل بزنید.</p>
+
+    <ul class="banner">
+      <li>
+        <div class="text">
+          نشانه چیست؟ <img src="images/arrow-down-r.svg" alt="arrow">
+        </div>
+
+        <div class="drop-down-text">
+          <p class="text-rtl">
+            نشانه یک ویژگی مرورگر وب است که برای ذخیره آدرس URL برای مراجعات بعدی استفاده می شود. نشانه ها در زمان کاربر
+            و مرورگر صرفه جویی می کنند، که به ویژه برای صفحات وب با URL طولانی مفید است.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="text">
+          چگونه می توانم مرورگر جدید درخواست کنم؟<img src="images/arrow-down-r.svg" alt="arrow">
+        </div>
+
+        <div class="drop-down-text">
+          <p class="text-rtl">
+            شما می توانید از طریق درخواست خود را به ما ایمیل کنید.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="text">
+          آیا اپلیکشن موبایل هم وجود دارد؟<img src="images/arrow-down-r.svg" alt="arrow">
+        </div>
+
+        <div class="drop-down-text">
+          <p class="text-rtl">
+            متاسفانه خیر؛ در حال حاضر تیم ما در حال بررسی شرایط برای فراهم کردن اپلیکشن موبایل است.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="text">
+          سایر مرورگرهای Chromium چطور؟<img src="images/arrow-down-r.svg" alt="arrow">
+        </div>
+
+        <div class="drop-down-text">
+          <p class="text-rtl">
+            شما می توانید با استفاده از ثبت درخواست خود ما را مطلع کنید؛ سپس تیم مل تمام تلاش هود را جهت فراهم اوری
+            درخواست شما انجام خواهد داد .
+          </p>
+        </div>
+      </li>
+    </ul>
+    <a href="#" class="btn">اطلاعات بیشتر</a>
+  </section>
+
+  <!-- Contact Us section starts here -->
+  <section class="contact">
+    <h4>از بروزرسانی های نشانه مطلع باشید</h4>
+
+    <form action="#" autocomplete="off" id="formbox" onsubmit="return validateForm()">
+      <input type="text" required placeholder="آدرس ایمیل خود را وارد کنید" id="email" class="input">
+      <img src="images/icon-error.svg" alt="error icon" class="error" id="img">
+      <button type="submit">تماس با ما </button>
+      <span id="alert"></span>
+    </form>
+  </section>
+
+  <!-- Footer starts here -->
+  <footer>
+    <nav>
+      <a href="#"><img src="images/logo-no-background.svg" alt="Neshane logo" class="logo"></a>
+      <ul class="links">
+        <li><a href="#">امکانات</a></li>
+        <li><a href="#">محصولات</a></li>
+        <li><a href="#">تماس با ما </a></li>
+      </ul>
+      <ul class="social-links">
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+      </ul>
+    </nav>
+
+
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
